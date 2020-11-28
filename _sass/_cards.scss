@@ -1,0 +1,72 @@
+
+div.scrollmenu, .card-stack {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0px 40px;
+  margin-top: 40px;
+}
+
+div.scrollmenu a, div.scrollmenu .card {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  border: none;
+}
+div.scrollmenu .card:hover {
+  background: purple;
+}
+.scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
+  display: none;
+}
+
+div.scrollmenu .card {
+  background: white;
+  color: pink;
+  border-radius: 4px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  h5 {
+    text-align: left;
+  }
+  a, p {
+    color: black;
+    white-space: normal;
+    text-align: left;
+    padding: 0px;
+  }
+}
+
+// Walkie Cards
+
+
+
+// Category Cards
+div.scrollmenu.category .card {
+  background: yellow;
+  border-radius: 4px;
+  width: 180px;
+  margin-right: 4px;
+  margin-bottom: 0px;
+}
+div.scrollmenu.category .card:hover {
+  background: red;
+}
+
+// Area Cards
+div.scrollmenu.area .card {
+  background: blue;
+  border-radius: 4px;
+  width: 400px;
+  margin-right: 4px;
+  margin-bottom: 0px;
+  a {
+    color: white;
+  }
+}
+div.scrollmenu.category .card:hover {
+  background: red;
+}
