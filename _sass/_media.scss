@@ -1,0 +1,16 @@
+// Mobile
+@media only screen and (max-width: 991px) {
+  body {
+    background-color: purple;
+  }
+  div.scrollmenu, .card-stack {
+    padding: 0px 12px !important;
+  }
+}
+
+// Tablet
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #fcd173;
+  }
+}
