@@ -18,3 +18,14 @@ footer {
   background-color: rgba(255, 68, 68, 0.8);
   color: white;
 }
+.profile {
+  height: 40px;
+  img {
+    float: left;
+    margin-right: 8px;
+  }
+  p {
+    position: relative;
+    top: 20%;
+  }
+}

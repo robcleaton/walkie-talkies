@@ -1,0 +1,51 @@
+
+{% include header.html %}
+
+<body>
+  <div class="container-fluid">
+    <div class="row color-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Tour</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget tempus est. Integer hendrerit pretium leo at viverra. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>{{ page.title }}</h1>
+        <h2>Header 2</h2>
+
+        <div class="profile">
+          <img src="https://cdn.dribbble.com/users/20533/avatars/normal/ae0f33e548c0a1df13b93b140d89f279.png?1502642848" alt="..." class="rounded-circle" width="40" height="40">
+          <p class=""><a href="#">Rob Cleaton</a></p>
+        </div>
+
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget tempus est. Integer hendrerit pretium leo at viverra. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget tempus est. Integer hendrerit pretium leo at viverra. Curabitur tincidunt lectus felis, a vulputate massa elementum vel. Ut egestas, leo ut hendrerit ultricies, sem ante porta ligula, vel pellentesque nibh arcu quis quam. Sed vel ante nec lacus tincidunt malesuada. Nullam ante arcu, pulvinar eget lorem eget, consequat vestibulum lacus. Vivamus aliquam leo eu quam laoreet, a condimentum tellus pretium. Fusce nisi erat, euismod nec efficitur a, tincidunt at risus. Sed quis venenatis ligula. Vestibulum convallis nec massa eu tempor. Etiam tempus condimentum velit a lobortis. Morbi ut aliquet dolor.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row color-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Comments</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget tempus est. Integer hendrerit pretium leo at viverra. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ content }}
+  {% include walkie-cards.html %}
+  {% include footer.html %}
+</body>
