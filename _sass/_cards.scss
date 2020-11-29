@@ -12,6 +12,10 @@ div.scrollmenu a, div.scrollmenu .card {
   text-align: center;
   text-decoration: none;
   border: none;
+  .btn {
+    background: none;
+    color: pink;
+  }
 }
 div.scrollmenu .card:hover {
   background: purple;
