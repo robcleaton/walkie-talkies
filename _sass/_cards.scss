@@ -3,7 +3,7 @@ div.scrollmenu, .card-stack {
   overflow: auto;
   white-space: nowrap;
   padding: 0px 40px;
-  margin-top: 40px;
+  margin: 20px 0px;
 }
 
 div.scrollmenu a, div.scrollmenu .card {
@@ -18,7 +18,7 @@ div.scrollmenu a, div.scrollmenu .card {
   }
 }
 div.scrollmenu .card:hover {
-  background: purple;
+  background: #f7ecec;
 }
 .scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
   display: none;
@@ -63,7 +63,7 @@ div.scrollmenu.category .card:hover {
 div.scrollmenu.area .card {
   background: blue;
   border-radius: 4px;
-  width: 400px;
+  width: 280px;
   margin-right: 4px;
   margin-bottom: 0px;
   a {
