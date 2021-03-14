@@ -3,9 +3,19 @@ title: Lionel Stanhope
 layout: default
 ---
 <style>
-  body, html {
-    background: grey;
-  }
+  
+.hero {
+  position: sticky;
+  background: blue;
+  top: 0;
+}
+.drawer {
+  padding-top: 20px;
+  background: white;
+  border-radius: 25px 25px 0px 0px;
+  margin-top: -100px;
+  position: relative;
+}
 .profile-block {
   padding: 40px 0px;
 }
@@ -19,16 +29,7 @@ img.thumbnail {
   max-width: 120px;
   float: left;
 }
-img {
-  background: pink;
-}
-.drawer {
-  padding-top: 20px;
-  background: white;
-  border-radius: 25px;
-  margin-top: -120px;
-  position: relative;
-}
+
 .walking {
 }
 </style>
@@ -41,8 +42,9 @@ img {
   </div>
   -->
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9947.900774445357!2d-0.06216090814776056!3d51.440249447636376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603c1647410e9%3A0x1bb92367ed35de98!2sForest%20Hill%2C%20London!5e0!3m2!1sen!2suk!4v1611235213848!5m2!1sen!2suk" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
+<div class="hero">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9947.900774445357!2d-0.06216090814776056!3d51.440249447636376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603c1647410e9%3A0x1bb92367ed35de98!2sForest%20Hill%2C%20London!5e0!3m2!1sen!2suk!4v1611235213848!5m2!1sen!2suk" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
 
 <div class="container drawer">
   <div class="row">
@@ -60,9 +62,9 @@ img {
           <div class="col-8">
             <div class="card-body">
               <h5 class="card-title">Forest Hill</h5>
-              <a href="#" class="stretched-link">Go somewhere</a>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href="#" class="stretched-link">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -70,7 +72,7 @@ img {
 
       <div class="card">
         <div class="card-body">
-          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" alt="...">Walkie 10 mins
+          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" width="16px" alt="...">Walkie 10 mins
         </div>
       </div>
 
@@ -82,9 +84,9 @@ img {
           <div class="col-8">
             <div class="card-body">
               <h5 class="card-title">Brockley</h5>
-              <a href="#" class="stretched-link">Go somewhere</a>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href="#" class="stretched-link">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -92,7 +94,7 @@ img {
 
       <div class="card">
         <div class="card-body">
-          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" alt="...">Walkie 10 mins
+          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" width="16px" alt="...">Walkie 10 mins
         </div>
       </div>
 
@@ -114,7 +116,7 @@ img {
 
       <div class="card">
         <div class="card-body">
-          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" alt="...">Walkie 10 mins
+          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" width="16px" alt="...">Walkie 10 mins
         </div>
       </div>
 
@@ -136,7 +138,7 @@ img {
 
       <div class="card">
         <div class="card-body">
-          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" alt="...">Walkie 10 mins
+          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" width="16px" alt="...">Walkie 10 mins
         </div>
       </div>
 
@@ -158,7 +160,7 @@ img {
 
       <div class="card walking">
         <div class="card-body">
-          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" alt="...">Walkie 10 mins
+          <img src="{{ site.baseurl }}/assets/images/icons/walk.svg" width="16px" alt="...">Walkie 10 mins
         </div>
       </div>
 
